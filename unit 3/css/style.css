@@ -1,0 +1,18 @@
+body {
+   
+    background-size: cover;	
+ 	font-family: 'Arial', sans-serif;
+ 	font-size: 20px;
+ 	color: #515659;
+}
+
+h1{
+	font-family: 'Blackout', sans-serif;
+ 	font-size: 140px;
+ 	color: #515659;
+}
+h2{
+	font-family: "Blackout", Midnight;
+ 	font-size: 60px;
+ 	color: #00AEEF;
+}
