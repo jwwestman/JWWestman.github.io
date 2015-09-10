@@ -1,20 +1,24 @@
-
+@font-face {
+    font-family: Blackout;
+    src: url(../fonts/blackout_two_am-webfont.ttf);
+}
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
    
-    background-size: cover;	
- 	font-family: 'Arial', sans-serif;
+ 	background-image: url(../images/canvastile.png);
+    background-repeat: repeat;
+    font-family: 'Arial', sans-serif;
  	font-size: 20px;
  	color: #515659;
 }
 
 h1{
-	font-family: 'Blackout', sans-serif;
+	font-family: 'Blackout';
  	font-size: 140px;
  	color: #515659;
 }
 h2{
-	font-family: "Blackout", Midnight;
+	font-family: "Blackout";
  	font-size: 60px;
  	color: #00AEEF;
 }
