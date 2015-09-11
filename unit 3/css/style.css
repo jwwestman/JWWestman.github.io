@@ -12,13 +12,15 @@ body {
  	color: #515659;
 }
 
-h1{
-	font-family: 'Blackout';
- 	font-size: 140px;
- 	color: #515659;
-}
 h2{
 	font-family: "Blackout";
  	font-size: 60px;
  	color: #00AEEF;
+}
+
+h3{
+	font-family: "Blackout";
+ 	font-size: 40px;
+ 	color: #58595B;
+}
 }
