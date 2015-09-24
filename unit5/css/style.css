@@ -16,6 +16,7 @@ h2{
 	font-family: "Blackout";
  	font-size: 80px;
  	color: #8DC63F;
+
 }
 
 h3{
@@ -23,4 +24,10 @@ h3{
  	font-size: 40px;
  	color: #58595B;
 }
+
+.column1of3, .column2of3, .column3of3{
+	width: 410px;
+	float: left;
+	margin: 20px;
 }
+
