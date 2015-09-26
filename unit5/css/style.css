@@ -25,9 +25,16 @@ h3{
  	color: #58595B;
 }
 
-.column1of3, .column2of3, .column3of3{
+.clearfix {
+	overflow: auto;
+}
+.column {
 	width: 410px;
 	float: left;
-	margin: 20px;
 }
+img { 
+    max-width: relative; 
+    height: auto; 
+}
+
 
