@@ -2,8 +2,13 @@
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
+#wrap { 
+	width: 960px; 
+	margin: 0 auto; 
+}
+
 body { font-family: 'Roboto Condensed', sans-serif; 
-background-color: #333333;
+background-color: #cccccc;
 }
 	header {
 	font-size: 40px;
@@ -35,7 +40,7 @@ nav a:hover {
 
 .column {
 	width: 100;
-	padding: 10px;
+	padding: 15px;
 	margin: 0px;
 	float: left;
 }
@@ -45,9 +50,10 @@ nav a:hover {
 }
 
 #column2 {
+  padding: 25px;
   background-color: #333333;
   font-size: 16px;
-	color: #cccccc;
+  color: #cccccc;
 }
 
 
