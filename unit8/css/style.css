@@ -3,34 +3,39 @@
     src: url(../fonts/blackout_two_am-webfont.ttf);
 }
 * { margin:0; padding:0; box-sizing:border-box; }
+
+#wrap { 
+    width: 1680px; 
+    margin: 0 auto; 
+}
+
 body {
    
  	background-image: url(../images/canvastile.png);
     background-repeat: repeat;
     font-family: 'Arial', sans-serif;
- 	font-size: 20px;
+ 	font-size: 18px;
  	color: #515659;
 }
 
-h2{
-	font-family: "Blackout";
- 	font-size: 80px;
- 	color: #8DC63F;
-
-}
-
-h3{
-	font-family: "Blackout";
- 	font-size: 40px;
- 	color: #58595B;
-}
+ nav {
+    position: absolute;
+    left: 100%
+    top: 64%
+    padding-right: 8px;
+    margin-top: -0.50em;
+ }
 
 .clearfix {
 	overflow: auto;
 }
 .column {
-	width: 410px;
+	width: 33.3%;
 	float: left;
+}
+.footer {
+    width: 100%;
+    float: left;
 }
 img { 
     max-width: relative; 
