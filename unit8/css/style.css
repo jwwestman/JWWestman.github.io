@@ -58,9 +58,8 @@ img {
 
 @media only screen and (max-width: 768px) {
     .column {
-    width: 33.3%;
-    padding-top:20px;
-    padding-right: 20px;
+    float: none;
+    width: auto;
     
 
 }
