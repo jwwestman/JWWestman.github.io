@@ -3,64 +3,45 @@
     src: url(../fonts/blackout_two_am-webfont.ttf);
 }
 * { margin:0; padding:0; box-sizing:border-box; }
-
-#wrap { 
-    width: 1680px; 
-    margin: 0 auto; 
 }
 
+article + article { margin-top:1em; }
+
 body {
-   
  	background-image: url(../images/canvastile.png);
     background-repeat: repeat;
     font-family: 'Arial', sans-serif;
  	font-size: 18px;
- 	color: #515659;
+ 	color: #fff;
 }
 
-.splash { 
-    width: 100%;
-    padding-left: 125px;
+.splash {
+    height: 100vh;
 }
-.nav {
-    width: 90px;
-    float: left; 
-    padding-top: 20px;
- }
-.h1 { 
-    width: 98%;
-    padding-left: 50px;
-    padding-top: 20px;
+.display {
+    height: 100vh;
 }
 
-
-
-.clearfix {
-	overflow: auto;
-}
-.column {
-	width: 33.3%;
-	float: left;
-    padding-top:20px;
-    padding-right: 20px;
-
-}
-.footer {
-    width: 100%;
-    float: left;
-    padding-top:20px;
-    padding-right: 20px;
-}
-img { 
-    max-width: relative; 
-    height: auto; 
+.mainContent {
+    margin: 0 auto;
+    max-width: 75em;
 }
 
-@media only screen and (max-width: 768px) {
-    .column {
-    float: none;
-    width: auto;
-    
-
+.columns {
+    float:left;
+    padding:0 1em;
+    width:33.33%;
 }
+#footer {
+    margin: 0 auto;
+    max-width: 75em;
+}
+.clearfix:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
 
