@@ -15,11 +15,18 @@ body {
  	color: #fff;
 }
 
-.splash {
-    height: 100vh;
+header {
+    width: 90%;
+    padding-left: 20px;
 }
-.display {
-    height: 100vh;
+
+nav {
+    width: 60px;
+    position: absolute;
+}
+
+.splash {
+    height: 300px;
 }
 
 .mainContent {
@@ -28,20 +35,20 @@ body {
 }
 
 .columns {
-    float:left;
-    padding:0 1em;
-    width:33.33%;
+    width: 410px;
+    float: left;
+    padding: 5px 10px;
 }
-#footer {
-    margin: 0 auto;
-    max-width: 75em;
+
+.footer {
+    height: 600px;
+    padding-left: 100px;
+    
 }
-.clearfix:after { 
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
+.clearfix {
+    overflow: auto;
 }
+
+
 
 
