@@ -1,7 +1,7 @@
 @font-face {
     font-family: Blackout;
     src: url(../fonts/blackout_two_am-webfont.ttf);
-}
+    
 * { margin:0; padding:0; box-sizing:border-box; }
 
 article + article { margin-top:1em; }
@@ -133,7 +133,7 @@ header img{
     width: 50%
   }
 
-  .splash img{
+  #splash img{
     width: 75%;
 }
 
