@@ -3,7 +3,6 @@
     src: url(../fonts/blackout_two_am-webfont.ttf);
 }
 * { margin:0; padding:0; box-sizing:border-box; }
-}
 
 article + article { margin-top:1em; }
 
@@ -62,7 +61,7 @@ header img{
     display: block !important; 
 }
 
-.columns {
+#columns {
     width: 100%;
     display: block;
     padding: 5px 10px;
@@ -109,7 +108,7 @@ header img{
   header img{
     width: 75%;
   }
-  .splash img{
+  #splash img{
     width: 75%;
   }
   
@@ -117,7 +116,6 @@ header img{
     width: 12%;
   }
 } 
-
 
 @media only screen and (min-width: 0px) and (max-width: 520px){
   #wrapper{
@@ -137,6 +135,7 @@ header img{
 
   .splash img{
     width: 75%;
+}
 
   footer img{
     width: 22%;
