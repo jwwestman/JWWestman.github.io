@@ -22,8 +22,8 @@
      		</div>
  			<div class="responsive-menu">
        	 			<ul>
-           				<li>1. Link </li>
-           				<li>2. Link </li>      
+           				<li>1. Object</li>
+           				<li>2. Object</li>   
         			</ul>
      			</div>
 			<section id="splash">
@@ -32,7 +32,7 @@
 				</div>
 			</section>
 			<section id="columns">
-					<div class="floated"><a ref="#"><img src="images/prod-card1.svg"></a></div>
+					<div class="floated"><a ref="#"><img src="images/prod-card1.png"></a></div>
 					<div class="floated"><a ref="#"><img src="images/prod-card2.svg"></a></div>
 					<div class="floated"><a ref="#"><img src="images/prod-card3.svg"></a></div>
 					<div class="floated"><a ref="#"><img src="images/prod-card4.svg"></a></div>
@@ -52,14 +52,28 @@
 	
 	</div>
 		
-		<script type="text/javascript">
-	
-				jQuery(function($){
-    	     	$( '.menu-btn' ).click(function(){
-    	     	$('.responsive-menu').toggleClass('expand')
-    	    	 })
-        		})
-		</script>
+<script type="text/javascript">
+	jQuery(function($){
+    	$( '.menu-btn' ).click(function(){
+    		$('.responsive-menu').addClass('expand')
+    		$('.menu-btn').addClass('btn-none')
+    	})
+    	
+    	 $( '.close-btn' ).click(function(){
+    		$('.responsive-menu').removeClass('expand')
+    		$('.menu-btn').removeClass('btn-none')
+    	})
+  	})
+ </script>
+
+ <script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
+
 
 	</body>
 </html>
