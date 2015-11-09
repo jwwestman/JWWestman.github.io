@@ -95,13 +95,14 @@ footer img {
   #wrapper{
     padding: 1.5%;
     width: 75%;
+
   }
   body{
     background: none;
   }
 } 
 
-@media only screen and (min-width: 521px) and (max-width: 768px){
+@media only screen and (min-width: 481px) and (max-width: 768px){
   #wrapper{
     padding: 3%;
   }
@@ -125,31 +126,31 @@ footer img {
   }
 } 
 
-@media only screen and (min-width: 0px) and (max-width: 520px){
+@media only screen and (min-width: 0px) and (max-width: 480px) {
   #wrapper{
     padding: 2%;
     width: 90%;
   }
+  
   body{
     padding: 3% 0 0 0;
   }
-  header img{
-    width: 100%;
-  }
+  
+  header img { background: url(images/masthead-image-sm.svg); width: 74px; }
+}
 
   #columns {
     width: 90%
   }
 
-  #splash img{
-    width: 85%;
+  #splash img { background: url(images/display-header-sm.svg); width: 446px; }
+}
 }
 
   footer img{
     width: 22%;
   }
 }
-
 
 
 
