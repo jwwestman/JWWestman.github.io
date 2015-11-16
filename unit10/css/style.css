@@ -90,7 +90,7 @@ header img{
     visibility: hidden;
 }
 
-#footer img {
+footer img {
   width: 50%;
   padding: .5%;
   margin-top: 0;
@@ -98,15 +98,40 @@ header img{
  
  @media only screen and (max-width: 1040px) {
 
+header img{
+    width: 95%;
+    padding-left: 60px;
+}
+
 .floated {
   width: 49%;
 
 }
 
- @media only screen and (max-width: 600px) {
+footer img {
+  width: 70%;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+header img {
+    width: 99%;
+    background-image: url(../images/masthead-image-sm.svg);
+}
+
+
+#splash img {
+    display: none;
+}
 
 .floated {
   width: 99%;
+
+}
+
+footer img {
+  width: 90%;
 
 }
 
