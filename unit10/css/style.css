@@ -18,15 +18,32 @@ body {
  	color: #fff;
 }
 
-header img{
+header {
+background-image: url(../images/masthead-image.svg);
+background-repeat: no-repeat;
+padding: 6%;
+
+
+}
+/*header img{
     width: 95%;
     padding-left: 40px;
-}
+}*/
 
 #splash img {
     width: 90%;
     padding-left: 120px; 
     padding-bottom: 20px;
+
+}
+
+#desktop {
+  display: block;
+
+}
+
+#phone {
+  display: none;
 
 }
 
@@ -121,15 +138,22 @@ footer img {
 
 @media only screen and (max-width: 600px) {
 
-header img {
-    width: 99%;
+header {
+  
     background-image: url(../images/masthead-image-sm.svg);
+    background-position: top center;
 }
 
+#desktop {
+  display: none;
 
-#splash img {
-    display: none;
 }
+
+#phone {
+  display: block;
+
+}
+
 
 .floated {
   width: 99%;
