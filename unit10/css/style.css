@@ -19,16 +19,21 @@ body {
 }
 
 header {
-background-image: url(../images/masthead-image.svg);
-background-repeat: no-repeat;
-padding: 6%;
-
+/*background-image: url(../images/masthead-image.svg);
+/*background-repeat: no-repeat;
+/*padding: 6%;*/
 
 }
-/*header img{
+
+header img {
     width: 95%;
-    padding-left: 40px;
-}*/
+    float: right;
+}
+
+#small {
+ display: none;
+
+}
 
 #splash img {
     width: 90%;
@@ -98,6 +103,12 @@ padding: 6%;
 
 }
 
+.gallery {
+  display: none;
+
+}
+
+
 
 .clearfix:after {
     content: ".";
@@ -115,10 +126,6 @@ footer img {
  
  @media only screen and (max-width: 1040px) {
 
-header img{
-    width: 95%;
-    padding-left: 40px;
-}
 
 #splash img {
   width: 95%;
@@ -139,10 +146,20 @@ footer img {
 @media only screen and (max-width: 600px) {
 
 header {
+
+  background-color: rgba(0,0,0,.5);
   
-    background-image: url(../images/masthead-image-sm.svg);
-    background-position: top center;
+    /*background-image: url(../images/masthead-image-sm.svg);*/
+    /*background-position: top center;*/
 }
+
+header img  {
+width: 20%;
+float: none;
+margin: 0 auto
+
+}
+
 
 #desktop {
   display: none;
@@ -153,6 +170,27 @@ header {
   display: block;
 
 }
+
+#small {
+ display: block;
+
+}
+
+#large {
+ display: none;
+
+}
+
+#menu {
+  float: left;
+
+}
+
+.gallery {
+  display: block; }
+
+.hide {
+  display: none; }
 
 
 .floated {
