@@ -36,7 +36,6 @@ header img {
   float: left;
 }
 
-
 #menu img {
   width: 100%;
 }
@@ -52,7 +51,7 @@ nav {
 }
 
 nav a {
-padding-top: 30px;
+padding-top: 50px;
 padding-left: 20px;
 display: block;
 font-family: 'Blackout-Midnight', sans-serif;
@@ -60,6 +59,14 @@ font-size: 40px;
 color: #FFF;
 text-decoration: none;
 
+}
+#close {
+  width: 4%;
+  float: right;
+}
+
+#close img {
+  width: 100%;
 }
 
 #small {
@@ -191,6 +198,18 @@ footer {
 
 }
 
+#totopicon img {
+ width: 6%;
+ height: 6%;
+
+}
+
+footer img  {
+width: 4%;
+height: 4%;
+
+}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -239,9 +258,20 @@ margin: 0 auto
 
 
 .floated {
-  width: 99%;
+  width: 99%; 
 
 }
+
+#totopicon img {
+ width: 9%;
+ height: 9%;
+
+}
+
+footer img  {
+width: 7%;
+height: 7%;
+
 
 
  }
