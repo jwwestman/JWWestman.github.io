@@ -198,6 +198,17 @@ footer {
 
 }
 
+nav a {
+padding-top: 50px;
+padding-left: 15px;
+display: block;
+font-family: 'Blackout-Midnight', sans-serif;
+font-size: 30px;
+color: #FFF;
+text-decoration: none;
+
+}
+
 #totopicon img {
  width: 6%;
  height: 6%;
@@ -247,6 +258,17 @@ margin: 0 auto
 
 #menu {
   float: left;
+
+}
+
+nav a {
+padding-top: 50px;
+padding-left: 20px;
+display: block;
+font-family: 'Blackout-Midnight', sans-serif;
+font-size: 30px;
+color: #FFF;
+text-decoration: none;
 
 }
 
