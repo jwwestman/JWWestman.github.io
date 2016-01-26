@@ -259,6 +259,11 @@ margin: 0 auto
 
 }
 
+nav a {
+font-family: 'Blackout-Midnight', sans-serif;
+font-size: 1em;
+}
+
 
 .gallery {
   display: block; }
@@ -274,7 +279,6 @@ margin: 0 auto
 
 
 nav a {
-padding-top: 5px;
 padding-bottom: 25px;
 font-family: 'Blackout-Midnight', sans-serif;
 font-size: 1em;
