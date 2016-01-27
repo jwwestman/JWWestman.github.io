@@ -30,6 +30,7 @@ header {
 header img {
     width: 92%;
     float: right;
+    opacity: 0.8;
 }
 
 #menu {
@@ -43,6 +44,7 @@ header img {
 
 nav {
   position: fixed;
+  padding-top: 30px;
   height: 100%;
   background-color: rgba(0,0,0,.7);
   width: 30%;
@@ -255,7 +257,7 @@ margin: 0 auto
 
 #menu {
   float: left;
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.8);
 
 }
 
